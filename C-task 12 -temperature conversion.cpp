@@ -26,9 +26,6 @@ int main()
 	  	                printf("Temperature in celsius: %f",celc);
 			        break;
 		        case 3: exit(0);	
-	    }
-		
+	    }	
          }while(ch=='y'||ch=='Y');
-
-	
 }
