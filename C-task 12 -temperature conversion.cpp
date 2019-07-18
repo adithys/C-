@@ -5,7 +5,6 @@
 int main()
 {
 	int choice;
-	char ch='Y';
 	float fahr,celc;
 	do
 	{	
@@ -25,7 +24,7 @@ int main()
 	  	                celc=(fahr-32.0)/1.8;
 	  	                printf("Temperature in celsius: %f",celc);
 			        break;
-		        case 3: exit(0);	
-	    }	
-         }while(ch=='y'||ch=='Y');
+		        case 3:exit(0);	
+	    }
+         }while(1);
 }
